@@ -316,6 +316,7 @@ PHP的包管理系统Composer已经支持PSR-4，同时也允许在composer.json
 
 Composer使用PSR-0风格
 
+```
 vendor/
     vendor_name/
         package_name/
@@ -327,8 +328,10 @@ vendor/
                 Vendor_Name/
                     Package_Name/
                         ClassNameTest.php   # Vendor_Name\Package_Name\ClassName
+```
 Composer使用PSR-4风格
 
+```
 vendor/
     vendor_name/
         package_name/
@@ -336,4 +339,5 @@ vendor/
                 ClassName.php       # Vendor_Name\Package_Name\ClassName
             tests/
                 ClassNameTest.php   # Vendor_Name\Package_Name\ClassNameTest
+```
 对比以上两种结构，明显可以看出PSR-4带来更简洁的文件结构。
